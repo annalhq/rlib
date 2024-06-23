@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Adjust if needed for browser compatibility
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Adjust if needed
+    "allowJs": true, // Allow existing JavaScript files
+    "skipLibCheck": true, // Skip type checking for built-in lib files
+    "esModuleInterop": true, // Enable ES module interop for compatibility
+    "allowSyntheticDefaultImports": true // Allow synthetic default imports
+    ,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@hyperui/*": ["components/ui/*"],
+      "@utils/*": ["utils/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "**/*.tsx",
+    "**/*.ts",
+    ".next/types/**/*.ts"
+, ],
+  "exclude": [
+    "node_modules"
+  ]
+}

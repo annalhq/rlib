@@ -1,0 +1,23 @@
+{
+     "index": {
+          "title": "Home",
+          "theme": {
+            "typesetting": "article"
+          }
+        },
+     "course": {
+          "title": "Course",
+          "display": "hidden"
+     },
+     "guide": "Guide",
+     "about": {
+          "title": "About",
+          "type": "page"
+     },
+     "---": {
+          "type": "separator"
+     },
+     "sem1": "Semester I",
+     "sem2": "Semester II",
+     "sem3": "Semester III"
+} 
