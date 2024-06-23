@@ -33,8 +33,13 @@ const config = {
     },
     
     //Extra tweaks by me
-
-
+    head: (
+      <>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="The unofficial library for RBU Students" />
+        <meta name="og:title" content="RLIB" />
+      </>
+    ),
 
     // Default Footer 
     footer: {
