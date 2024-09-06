@@ -13,7 +13,7 @@
 3. ⚙️ [Tech Stack](#tech-stack)
 
 ## <a name="introduction">⚡ Introduction</a>
-RLiB is an unofficial library for RBU students built and maintained by Annalhq Shaikh. It is a platform where students can find all the necessary study materials, notes, and other resources in one place. It is a Next.js application with a Framer Motion and Tailwind CSS.
+RLiB is an unofficial library for RBU students built and maintained by Annalhq Shaikh. It is a platform where students can find all the necessary study materials, notes, and other resources in one place.
 
 ## <a name="features">🚀 Features</a>
 - [x] Handwritten Notes
