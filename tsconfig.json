@@ -1,42 +1,29 @@
 {
   "compilerOptions": {
-    "target": "es5", // Adjust if needed for browser compatibility
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ], // Adjust if needed
-    "allowJs": true, // Allow existing JavaScript files
-    "skipLibCheck": true, // Skip type checking for built-in lib files
-    "esModuleInterop": true, // Enable ES module interop for compatibility
-    "allowSyntheticDefaultImports": true // Allow synthetic default imports
-    ,
-    "strict": false,
+    "baseUrl": ".",
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
+    "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
+    "incremental": true,
     "paths": {
-      "@hyperui/*": ["components/ui/*"],
-      "@utils/*": ["utils/*"]
+      "@/*": ["./*"]
     },
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "strictNullChecks": true
+    ]
   },
-  "include": [
-    "**/*.tsx",
-    "**/*.ts",
-    ".next/types/**/*.ts"
-, ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

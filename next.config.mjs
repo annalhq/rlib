@@ -1,39 +1,10 @@
-// **************************
-// Standard config
-// **************************
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {};
+import { createMDX } from 'fumadocs-mdx/next';
 
-// import nextra from 'nextra';
-
-// const withNextra = nextra({
-//   theme: 'nextra-theme-docs',
-//   themeConfig: './theme.config.jsx',
-//   standalone: true,
-// });
-
-// export default withNextra(nextConfig);
-
-// **************************
-// Config with alias support
-// **************************
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
+const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  webpack: (config) => {
-    config.resolve.alias['@hyperui'] = require('path').resolve( 'components/ui/');
-    return config;
-  },
+const config = {
+  reactStrictMode: true,
 };
 
-import nextra from 'nextra';
-
-const withNextra = nextra({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.jsx',
-  standalone: true,
-});
-
-export default withNextra(nextConfig);
+export default withMDX(config);

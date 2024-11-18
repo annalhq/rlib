@@ -1,30 +1,26 @@
-<h3 align="center"> RLiB, the library for RBU Students </h3>
+# my-app
 
-  <div align="center">
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
+This is a Next.js application generated with
+[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
 
-## 📋 <a name="table">Table of Contents</a>
+Run development server:
 
-1. 🤖 [Introduction](#introduction)
-2. 🚀 [Features](#features)
-3. ⚙️ [Tech Stack](#tech-stack)
+```bash
+npm run dev
+# or
+pnpm dev
+# or
+yarn dev
+```
 
-## <a name="introduction">⚡ Introduction</a>
-RLiB is an unofficial library for RBU students built and maintained by Annalhq Shaikh. It is a platform where students can find all the necessary study materials, notes, and other resources in one place.
+Open http://localhost:3000 with your browser to see the result.
 
-## <a name="features">🚀 Features</a>
-- [x] Handwritten Notes
-- [x] Lecture slides
-- [x] Question Papers (UT, ESE)
-- [x] Curated online resources
-- [x] Lab Manuals
+## Learn More
 
+To learn more about Next.js and Fumadocs, take a look at the following
+resources:
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- Next.js
-- Framer Motion
-- Tailwind CSS
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
+  features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
